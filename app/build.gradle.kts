@@ -6,6 +6,8 @@ android {
     namespace = "zamoranogarcia.juanjose.smbapp"
     compileSdk = 34
 
+
+
     defaultConfig {
         applicationId = "zamoranogarcia.juanjose.smbapp"
         minSdk = 24
@@ -29,6 +31,13 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+buildFeatures{
+
+    viewBinding = true
+    dataBinding = true
+}
+
+
 }
 
 dependencies {
